@@ -1,0 +1,191 @@
+@import './common/vars';
+
+.cookies-body {
+  background-color: $_background;
+}
+
+.cookies-wrap-btn {
+  cursor: pointer;
+}
+
+.cookies-btn {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border-radius: 4px;
+  width: 187px;
+  height: 40px;
+
+  background: $_burgundy-btn;
+}
+
+.cookies-img-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.cookies-text-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_white;
+}
+
+.cookies-section {
+  padding-top: 24px;
+}
+
+.cookies-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  padding-bottom: 24px;
+}
+
+.cookies-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+}
+
+.paragraph {
+  padding-bottom: 8px;
+}
+
+.paragraph-two {
+  padding-bottom: 24px;
+}
+
+.paragraph-li {
+  padding-bottom: 8px;
+}
+
+.cookies-text-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  padding-bottom: 16px;
+}
+
+.cookies-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cookies-li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+.cookies-li-two {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $_black-cookies;
+
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 10px;
+
+  padding-bottom: 8px;
+}
+
+.cookies-ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.cookies-list-ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-decoration: underline;
+
+  list-style-type: disc;
+  padding-left: 10px;
+}
+
+.cookies-list-a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.cookies-dop-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .cookies-section {
+    padding-top: 36px;
+  }
+
+  .cookies-title {
+    font-size: 64px;
+    padding-bottom: 36px;
+  }
+
+  .cookies-text {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    padding-bottom: 36px;
+  }
+
+  .paragraph-two {
+    padding-bottom: 36px;
+  }
+
+  .paragraph-li {
+    padding-bottom: 16px;
+  }
+
+  .cookies-text-title {
+    font-size: 36px;
+    padding-bottom: 24px;
+  }
+
+  .cookies-mail {
+    font-size: 18px;
+  }
+
+  .cookies-li {
+    font-size: 18px;
+  }
+
+  .cookies-list-a {
+    font-size: 18px;
+  }
+
+  .cookies-dop-link {
+    font-size: 18px;
+  }
+}

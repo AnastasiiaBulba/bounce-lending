@@ -1,0 +1,196 @@
+@import './common/vars';
+
+.gallery {
+  scroll-margin-top: 40px;
+}
+
+.gallery-wrap-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+
+  border: 2px solid $_white;
+  border-radius: 6px;
+  padding: 8px 16px;
+  width: 335px;
+  height: 52px;
+
+  background: $_bricks;
+
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.gallery-text-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_white;
+}
+
+.gallery-img-one {
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+}
+
+.gallery-img-one img {
+  width: 76px;
+  height: 68px;
+}
+
+.gallery-card {
+  cursor: pointer;
+  min-width: 200px;
+}
+
+.gallerySwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto !important;
+
+  flex-shrink: 0;
+}
+
+.gallerySwiper img {
+  width: 191px;
+  height: 353px;
+
+  max-width: 100%;
+  display: block;
+}
+
+.gallery-wrap-btn {
+  padding-top: 48px;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+
+.gallery-btn-left {
+  all: unset;
+  cursor: pointer;
+
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  background: $_burgundy;
+}
+
+.gallery-btn-left img {
+  all: unset;
+  cursor: pointer;
+
+  width: 20px;
+  height: 20px;
+
+  padding: 10px;
+}
+
+.gallery-btn-right {
+  all: unset;
+  cursor: pointer;
+
+  border-radius: 100px;
+  width: 40px;
+  height: 40px;
+
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.15), 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  background: $_burgundy;
+}
+
+.gallery-btn-right img {
+  all: unset;
+  cursor: pointer;
+
+  width: 20px;
+  height: 20px;
+
+  padding: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .gallery {
+    scroll-margin-top: 80px;
+  }
+
+  .gallery-wrap-text {
+    gap: 817px;
+
+    border: 3px solid $_white;
+    border-radius: 10px;
+    padding: 16px 24px;
+    width: 1296px;
+    height: 128px;
+    margin-bottom: 72px;
+  }
+
+  .gallery-text-title {
+    font-size: 64px;
+  }
+
+  .gallery-img-one {
+    right: 32px;
+  }
+
+  .gallery-img-one img {
+    width: 195px;
+    height: 175px;
+  }
+
+  .gallery-card {
+    cursor: pointer;
+    min-width: 200px;
+  }
+
+  .gallerySwiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto !important;
+
+    flex-shrink: 0;
+  }
+
+  .gallerySwiper img {
+    width: 391px;
+    height: 521px;
+
+    max-width: 100%;
+    display: block;
+  }
+
+  .gallery-wrap-btn {
+    padding-top: 72px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .gallery-btn-left img {
+    all: unset;
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+
+    padding: 10px;
+  }
+
+  .gallery-btn-right img {
+    all: unset;
+    cursor: pointer;
+
+    width: 20px;
+    height: 20px;
+
+    padding: 10px;
+  }
+}

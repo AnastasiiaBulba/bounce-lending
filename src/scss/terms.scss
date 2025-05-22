@@ -1,0 +1,177 @@
+@import './common/vars';
+
+.terms-body {
+  background-color: $_background;
+}
+
+.terms-wrap-btn {
+  cursor: pointer;
+}
+
+.terms-btn {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border-radius: 4px;
+  width: 187px;
+  height: 40px;
+
+  background: $_burgundy-btn;
+}
+
+.terms-img-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.terms-text-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_white;
+}
+
+.terms-section {
+  padding-top: 24px;
+}
+
+.terms-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  padding-bottom: 24px;
+}
+
+.terms-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+}
+
+.paragraph {
+  padding-bottom: 8px;
+}
+
+.paragraph-two {
+  padding-bottom: 24px;
+}
+
+.paragraph-li {
+  padding-bottom: 8px;
+}
+
+.terms-text-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  padding-bottom: 16px;
+}
+
+.terms-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.terms-li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+.terms-ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.terms-list-ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-decoration: underline;
+
+  list-style-type: disc;
+  padding-left: 10px;
+}
+
+.terms-list-a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.terms-dop-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .terms-section {
+    padding-top: 36px;
+  }
+
+  .terms-title {
+    font-size: 64px;
+    padding-bottom: 36px;
+  }
+
+  .terms-text {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    padding-bottom: 36px;
+  }
+
+  .paragraph-two {
+    padding-bottom: 36px;
+  }
+
+  .paragraph-li {
+    padding-bottom: 16px;
+  }
+
+  .terms-text-title {
+    font-size: 36px;
+    padding-bottom: 24px;
+  }
+
+  .terms-mail {
+    font-size: 18px;
+  }
+
+  .terms-li {
+    font-size: 18px;
+  }
+
+  .terms-list-a {
+    font-size: 18px;
+  }
+
+  .terms-dop-link {
+    font-size: 18px;
+  }
+}

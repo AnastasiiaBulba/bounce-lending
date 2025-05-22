@@ -1,0 +1,155 @@
+@import './common/vars';
+
+.how {
+  scroll-margin-top: 40px;
+}
+
+.how-wrap-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+
+  border: 2px solid $_white;
+  border-radius: 6px;
+  padding: 8px 16px;
+  width: 335px;
+  height: 52px;
+
+  background: $_bricks;
+
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.how-text-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_white;
+}
+
+.how-img-one {
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+}
+
+.how-img-one img {
+  width: 80px;
+  height: 69px;
+}
+
+.how-wrap-content {
+  padding-left: 16px;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.how-wrap-content-one {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.how-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.how-card-number {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  color: $_burgundy-btn;
+}
+
+.how-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.how-card-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $_black-cookies;
+}
+
+.how-card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+}
+
+.how-wrap-content-two {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+@media screen and (min-width: 1440px) {
+  .how {
+    scroll-margin-top: 80px;
+  }
+
+  .how-wrap-text {
+    gap: 817px;
+
+    border: 3px solid $_white;
+    border-radius: 10px;
+    padding: 16px 24px;
+    width: 1296px;
+    height: 128px;
+    margin-bottom: 72px;
+  }
+
+  .how-text-title {
+    font-size: 64px;
+  }
+
+  .how-img-one {
+    right: 32px;
+  }
+
+  .how-img-one img {
+    width: 207px;
+    height: 178px;
+  }
+
+  .how-wrap-content {
+    flex-direction: row;
+  }
+
+  .how-card {
+    gap: 24px;
+  }
+
+  .how-card-number {
+    font-size: 64px;
+  }
+
+  .how-card-content {
+    width: 557px;
+    gap: 8px;
+  }
+
+  .how-card-title {
+    font-size: 20px;
+  }
+
+  .how-card-text {
+    font-size: 18px;
+  }
+}

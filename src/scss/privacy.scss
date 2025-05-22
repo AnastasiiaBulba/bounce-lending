@@ -1,0 +1,177 @@
+@import './common/vars';
+
+.privacy-body {
+  background-color: $_background;
+}
+
+.privacy-wrap-btn {
+  cursor: pointer;
+}
+
+.privacy-btn {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  border-radius: 4px;
+  width: 187px;
+  height: 40px;
+
+  background: $_burgundy-btn;
+}
+
+.privacy-img-btn {
+  width: 24px;
+  height: 24px;
+}
+
+.privacy-text-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_white;
+}
+
+.privacy-section {
+  padding-top: 24px;
+}
+
+.privacy-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  padding-bottom: 24px;
+}
+
+.privacy-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+}
+
+.paragraph {
+  padding-bottom: 8px;
+}
+
+.paragraph-two {
+  padding-bottom: 24px;
+}
+
+.paragraph-li {
+  padding-bottom: 8px;
+}
+
+.privacy-text-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  padding-bottom: 16px;
+}
+
+.privacy-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.privacy-li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+
+  list-style-type: disc;
+  list-style-position: inside;
+  padding-left: 10px;
+}
+
+.privacy-ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.privacy-list-ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  text-decoration: underline;
+
+  list-style-type: disc;
+  padding-left: 10px;
+}
+
+.privacy-list-a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.privacy-dop-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1440px) {
+  .privacy-section {
+    padding-top: 36px;
+  }
+
+  .privacy-title {
+    font-size: 64px;
+    padding-bottom: 36px;
+  }
+
+  .privacy-text {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    padding-bottom: 36px;
+  }
+
+  .paragraph-two {
+    padding-bottom: 36px;
+  }
+
+  .paragraph-li {
+    padding-bottom: 16px;
+  }
+
+  .privacy-text-title {
+    font-size: 36px;
+    padding-bottom: 24px;
+  }
+
+  .privacy-mail {
+    font-size: 18px;
+  }
+
+  .privacy-li {
+    font-size: 18px;
+  }
+
+  .privacy-list-a {
+    font-size: 18px;
+  }
+
+  .privacy-dop-link {
+    font-size: 18px;
+  }
+}

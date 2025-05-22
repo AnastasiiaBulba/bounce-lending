@@ -1,0 +1,252 @@
+@import './common/vars';
+
+.download {
+  scroll-margin-top: 40px;
+  padding-bottom: 64px;
+}
+
+.download-wrap {
+  position: relative;
+  height: 404px;
+}
+
+.download-wrap-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.download-text-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-align: center;
+}
+
+.download-text-parag {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: $_black-cookies;
+  text-align: center;
+}
+
+.download-btn {
+  all: unset;
+  cursor: pointer;
+  border: 1px solid $_white;
+  border-radius: 10px;
+  padding-right: 8px;
+  width: 163px;
+  height: 48px;
+  background: $_burgundy-btn;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 67px;
+}
+
+.download-btn-img {
+  width: 28px;
+  height: 30px;
+  padding-left: 12px;
+}
+
+.download-btn-text-one {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: $_white;
+  text-transform: uppercase;
+}
+
+.download-btn-text-two {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.42;
+  color: $_white;
+}
+
+.download-img-one {
+  width: 222px;
+  left: 91px;
+}
+
+.download-img-one img {
+  margin-left: 51px;
+  position: absolute;
+  z-index: 5;
+}
+
+.cloud1 {
+  top: 58%;
+  left: 14%;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.cloud2 {
+  top: 92%;
+  left: 64%;
+
+  position: absolute;
+  z-index: 7;
+}
+
+.cloud11 {
+  top: 92%;
+  left: -34%;
+
+  position: absolute;
+  z-index: 7;
+}
+
+.cloud3 {
+  display: none;
+}
+
+.cloud4 {
+  display: none;
+}
+
+.cloud5 {
+  display: none;
+}
+
+.cloud6 {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .download {
+    scroll-margin-top: 80px;
+  }
+
+  .download-wrap {
+    position: relative;
+    height: 390px;
+    display: flex;
+  }
+
+  .download-wrap-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 47px;
+    width: 746px;
+  }
+
+  .download-text-title {
+    font-size: 64px;
+    text-align: left;
+  }
+
+  .download-text-parag {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .download-btn {
+    all: unset;
+    cursor: pointer;
+    border: 1px solid $_white;
+    border-radius: 10px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 262px;
+    height: 78px;
+    background: $_burgundy-btn;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+
+  .download-btn-img {
+    width: 42px;
+    height: 40px;
+    padding-left: 12px;
+  }
+
+  .download-btn-text-one {
+    font-size: 14px;
+  }
+
+  .download-btn-text-two {
+    font-size: 22px;
+  }
+
+  .download-img-one {
+    width: 530px;
+    left: 0;
+  }
+
+  .download-img-one img {
+    margin-left: 0;
+    right: 0;
+  }
+
+  .cloud1 {
+    display: none;
+  }
+
+  .cloud2 {
+    display: none;
+  }
+
+  .cloud11 {
+    display: none;
+  }
+
+  .cloud3 {
+    display: block;
+
+    top: -16%;
+    left: 58%;
+
+    position: absolute;
+    z-index: 2;
+  }
+
+  .cloud4 {
+    display: block;
+
+    top: 70%;
+    left: 28%;
+
+    position: absolute;
+    z-index: 7;
+  }
+
+  .cloud5 {
+    display: block;
+    top: -15%;
+    left: -4%;
+
+    position: absolute;
+    z-index: -1;
+
+    width: 234px;
+    height: 117px;
+  }
+
+  .cloud6 {
+    display: block;
+    transform: scaleX(-1);
+    width: 234px;
+    height: 117px;
+
+    top: 72%;
+    left: 88%;
+
+    position: absolute;
+    z-index: 8;
+  }
+}

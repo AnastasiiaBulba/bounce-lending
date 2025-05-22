@@ -1,0 +1,256 @@
+@import './common/vars';
+
+.game {
+  scroll-margin-top: 40px;
+}
+
+.game-wrap-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+
+  border: 2px solid $_white;
+  border-radius: 6px;
+  padding: 8px 16px;
+  width: 335px;
+  height: 52px;
+
+  background: $_bricks;
+
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.game-text-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_white;
+}
+
+.game-img-one {
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+}
+
+.game-img-one img {
+  width: 92px;
+  height: 69px;
+}
+
+.game-wrap-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.game-wrap-content-one {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.game-card {
+  display: flex;
+  position: relative;
+  padding: 6px 25px;
+}
+
+.game-card-title {
+  padding-bottom: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_black-cookies;
+}
+
+.game-card-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_black-cookies;
+}
+
+.arrow1 {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+
+  top: 62%;
+  left: -4%;
+}
+
+.arrow2 {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  transform: scaleX(-1);
+
+  top: 62%;
+  left: 78%;
+}
+
+.arrow3 {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+
+  top: 62%;
+  left: -4%;
+}
+
+.arrow4 {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+  transform: scaleX(-1);
+
+  top: 62%;
+  left: 78%;
+}
+
+.arrow5 {
+  position: absolute;
+  width: 86px;
+  height: 86px;
+
+  top: 62%;
+  left: -4%;
+}
+
+.game-wrap-content-two {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.game-wrap-content-three {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+  .game {
+    scroll-margin-top: 80px;
+  }
+
+  .game-wrap-text {
+    gap: 817px;
+
+    border: 3px solid $_white;
+    border-radius: 10px;
+    padding: 16px 24px;
+    width: 1296px;
+    height: 128px;
+    margin-bottom: 72px;
+  }
+
+  .game-text-title {
+    font-size: 64px;
+  }
+
+  .game-img-one {
+    right: 32px;
+  }
+
+  .game-img-one img {
+    width: 237px;
+    height: 178px;
+  }
+
+  .game-wrap-content {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .game-wrap-content-one {
+    gap: 24px;
+  }
+
+  .game-card {
+    display: flex;
+    position: relative;
+    padding: 16px 25px;
+  }
+
+  .game-card-title {
+    padding-bottom: 8px;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+  }
+
+  .game-card-text {
+    font-size: 18px;
+  }
+
+  .arrow1 {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+
+    top: 20%;
+    left: 92%;
+  }
+
+  .arrow2 {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    transform: scaleX(-1);
+
+    top: 20%;
+    left: 94%;
+  }
+
+  .arrow3 {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    transform: scaleY(-1);
+
+    top: 20%;
+    left: 90%;
+  }
+
+  .arrow4 {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    transform: scaleX(-1);
+
+    top: 20%;
+    left: 94%;
+  }
+
+  .arrow5 {
+    position: absolute;
+    width: 86px;
+    height: 86px;
+    transform: scaleX(-1);
+
+    top: 62%;
+    left: 80%;
+  }
+
+  .game-wrap-content-two {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .game-wrap-content-three {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}

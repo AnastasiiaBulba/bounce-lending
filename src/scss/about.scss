@@ -1,0 +1,197 @@
+@import './common/vars';
+
+.about {
+  scroll-margin-top: 40px;
+}
+
+.about-wrap-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 10px;
+
+  border: 2px solid #fff;
+  border-radius: 6px;
+  padding: 8px 16px;
+  width: 335px;
+  height: 52px;
+
+  background: $_bricks;
+
+  position: relative;
+
+  margin-bottom: 32px;
+}
+
+.about-text-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+  color: $_white;
+}
+
+.about-img-one {
+  position: absolute;
+  right: 8px;
+  bottom: 0;
+}
+
+.about-img-one img {
+  width: 95px;
+  height: 68px;
+}
+
+.about-wrap-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.about-wrap-content-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-content-text {
+  padding-bottom: 16px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $_black;
+}
+
+.about-btn {
+  all: unset;
+  cursor: pointer;
+  border: 1px solid $_white;
+  border-radius: 10px;
+  padding-right: 8px;
+  width: 163px;
+  height: 48px;
+  background: $_burgundy-btn;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+
+.about-btn-img {
+  width: 28px;
+  height: 30px;
+  padding-left: 12px;
+}
+
+.about-btn-text-one {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: $_white;
+  text-transform: uppercase;
+}
+
+.about-btn-text-two {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.42;
+  color: $_white;
+}
+
+.about-img-two img {
+  padding-top: 32px;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .about {
+    scroll-margin-top: 80px;
+  }
+
+  .about-wrap-text {
+    gap: 464px;
+
+    border: 3px solid #fff;
+    border-radius: 10px;
+    padding: 16px 24px;
+    width: 1296px;
+    height: 128px;
+    margin-bottom: 72px;
+  }
+
+  .about-text-title {
+    font-size: 64px;
+  }
+
+  .about-img-one {
+    position: absolute;
+    right: 32px;
+    bottom: 0;
+  }
+
+  .about-img-one img {
+    width: 243px;
+    height: 174px;
+  }
+
+  .about-wrap-content {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .about-wrap-content-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 636px;
+  }
+
+  .about-content-text {
+    padding-bottom: 24px;
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1b0a35;
+  }
+
+  .about-btn {
+    all: unset;
+    cursor: pointer;
+    border: 1px solid $_white;
+    border-radius: 10px;
+    padding-right: 8px;
+    width: 215px;
+    height: 64px;
+    background: $_burgundy-btn;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+  }
+
+  .about-btn-img {
+    width: 42px;
+    height: 40px;
+    padding-left: 12px;
+  }
+
+  .about-btn-text-one {
+    font-size: 14px;
+  }
+
+  .about-btn-text-two {
+    font-size: 22px;
+  }
+
+  .about-img-two img {
+    padding-top: 0;
+    width: 100%;
+  }
+}

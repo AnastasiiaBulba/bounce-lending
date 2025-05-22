@@ -1,0 +1,71 @@
+@import './common/vars';
+
+.is-hidden {
+  background: none;
+  display: none;
+}
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 264px;
+  height: 459px;
+  right: -15%;
+  position: relative;
+  z-index: 1001;
+}
+
+.wrap-dop {
+  background: $_burgundy-btn;
+  width: 264px;
+  height: 459px;
+  border-radius: 30px 0 0 30px;
+  padding: 36px 20px;
+  position: absolute;
+  top: 0;
+}
+
+.back-button {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 40px;
+  right: 24px;
+  cursor: pointer;
+}
+
+.modal-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.modal-nav-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  text-decoration: none;
+  padding-top: 116px;
+  gap: 32px;
+}
+
+.modal-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $_white;
+}
